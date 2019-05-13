@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import { Column, Row } from 'simple-flexbox';
 import Header from './header';
+import Footer from './footer';
+import './sample.css';
+import SelectTarget from './selectTarget';
+
 class Sample extends Component {
     render() {
         return (
@@ -8,7 +12,16 @@ class Sample extends Component {
             // <div>Hello This is sample data</div>
             // <div>Hello This is sample data</div>
             // </div>
-            <Header></Header>
+            <div>
+                <Header></Header>
+                <div className="innerDiv">
+
+                    <SelectTarget />
+
+                </div>
+                <Footer></Footer>
+            </div>
+
             // <Column flexGrow={1}>
             //     <Row horizontal='center'>
             //         <h1>HEADER</h1>

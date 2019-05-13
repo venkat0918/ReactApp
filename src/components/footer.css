@@ -1,0 +1,15 @@
+.webFooter{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #EEEEEE;
+    border-top: 1px solid darkgray;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .copy{
+    color:gray;
+}
